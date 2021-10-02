@@ -1,0 +1,73 @@
+/* Layout */
+$breakpoint-small: 'max-width: 36rem';
+$breakpoint-large: 'max-width: 90rem';
+
+/* Distances */
+
+/*$distance-base-0_063: 0.063rem;*/
+/*$distance-base-0_125: 0.125rem;*/
+$distance-base-0_25: 0.25rem;
+$distance-base-0_5: 0.5rem;
+$distance-base-0_75: 0.75rem;
+$distance-base-0_875: 0.875rem;
+$distance-base: 1rem;
+$distance-base-1_25: 1.25rem;
+$distance-base-1_5: 1.5rem;
+$distance-base-2: 2rem;
+/* $distance-base-2_5: 2.5rem; */
+$distance-base-3: 3rem;
+/*$distance-base-3_5: 3.5rem;*/
+$distance-base-4: 4rem;
+/*$distance-base-5: 5rem;*/
+$distance-base-6: 6rem;
+$distance-base-8: 8rem;
+
+/* Primary Colors */
+
+$color-dark-grey: hsl(0, 0%, 63%);
+$color-black: hsl(0, 0%, 0%);
+$color-white: hsl(0, 0%, 100%);
+$color-very-dark-grey: hsl(0, 0%, 27%);
+
+/* Font Face */
+
+@font-face {
+	font-family: 'Spartan';
+	src: local('Spartan'), local('Spartan'),
+		url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap')
+			format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+		U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Font Weights */
+
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-weight-700: 600;
+
+/* Font Size */
+
+$font-size-default: $distance-base-0_75;
+
+h1 {
+	all: none;
+	font-size: $distance-base-2;
+	font-weight: $font-weight-600;
+}
+
+h2 {
+	all: none;
+	letter-spacing: $distance-base-0_5;
+	font-weight: $font-weight-600;
+	font-size: $distance-base;
+	font-size: $font-size-default;
+}
+
+p {
+	all: none;
+	color: $color-dark-grey;
+	line-height: $distance-base-1_25;
+	font-size: $font-size-default;
+}
