@@ -23,6 +23,15 @@ export default defineComponent({
     width: 100%;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+}
+
+@media ($breakpoint-small) {
+    .footer-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 }
 
 </style>

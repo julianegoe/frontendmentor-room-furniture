@@ -28,7 +28,7 @@ export default defineComponent({
 
 @media ($breakpoint-small) {
     .content-layout {
-        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
     }
 }
 
