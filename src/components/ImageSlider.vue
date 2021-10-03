@@ -94,6 +94,11 @@ export default defineComponent({
             letter-spacing: $distance-base-0_5;
             color: $color-black;
             padding-top: $distance-base-2;
+            cursor: pointer;
+        }
+
+        > .call-to-action:hover {
+            opacity: 0.3;
         }
 
     }
@@ -103,7 +108,6 @@ export default defineComponent({
     place-self: end start;
 }
 }
-
 .smallscreen {
     display: none;
 }

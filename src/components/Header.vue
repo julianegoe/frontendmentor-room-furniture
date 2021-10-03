@@ -4,15 +4,19 @@
         <ul class="nav-links">
             <li>
                 home
+                <hr>
             </li>
             <li>
                 shop
+                <hr>
             </li>
             <li>
                 about
+                <hr>
             </li>
             <li>
                 contact
+                <hr>
             </li>
         </ul>
     </nav>
@@ -55,7 +59,19 @@ export default defineComponent({
         color: $color-white;
         font-weight: $font-weight-400;
         cursor: pointer;
+
+        > hr {
+            width: 50%;
+            height: 1px;
+            background-color: $color-white;
+            opacity: 0;
+        }
     }
+}
+
+li:hover hr {
+    opacity: 1;
+    transition: opacity 0.4s ease-in-out;
 }
 
 &.smallscreen {
