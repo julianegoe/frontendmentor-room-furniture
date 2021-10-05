@@ -51,10 +51,18 @@ $font-weight-700: 600;
 
 $font-size-default: $distance-base-0_75;
 
+body {
+	font-family: 'Spartan';
+}
+
 h1 {
 	all: none;
-	font-size: $distance-base-2;
-	font-weight: $font-weight-600;
+	font-size: $distance-base-3;
+	font-weight: $font-weight-500;
+
+	@media ($breakpoint-small) {
+		font-size: $distance-base-2;
+	}
 }
 
 h2 {

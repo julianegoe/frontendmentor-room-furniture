@@ -87,7 +87,7 @@ export default defineComponent({
     grid-template-rows: auto auto;
 
     > .text-content {
-        padding: $distance-base-4 $distance-base-6;
+        padding: $distance-base-6 $distance-base-6;
         grid-row: 1 / span 1;
 
         > .call-to-action {
@@ -121,7 +121,7 @@ export default defineComponent({
         height: 100%;
 
         > .image {
-            width: 100%;
+            width: auto;
             height: 100%;
             object-fit: cover;
         }
@@ -135,6 +135,11 @@ export default defineComponent({
 
     .text-content-container {
         grid-column: 1 / span 1;
+
+        .text-content {
+            padding: $distance-base-2 $distance-base-2;
+
+        }
     }
 
     .bigscreen {
