@@ -39,7 +39,7 @@ export default defineComponent({
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     padding: $distance-base-3;
     display: flex;
     flex-direction: row;

@@ -31,7 +31,7 @@ button {
 }
 
 button:hover {
-        opacity: 0.8;
+        background-color: $color-very-dark-grey;
     }
 
 
