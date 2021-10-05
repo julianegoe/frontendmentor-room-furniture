@@ -40,7 +40,7 @@ export default defineComponent({
     top: 0;
     left: 0;
     width: 100vw;
-    padding: $distance-base-3;
+    padding: $distance-base-2;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -53,7 +53,7 @@ export default defineComponent({
 
         > li {
         list-style: none;
-        margin-left: $distance-base-2;
+        margin-right: $distance-base;
         color: $color-black;
         font-weight: $font-weight-400;
         cursor: pointer;
